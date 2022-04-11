@@ -102,7 +102,7 @@ void criaRegistro(){
         //Identificador para auxiliar nas respostas de data inseridas pelo usuário;
         int respt = 0;
 
-        //Pede a dia e repete o pedido caso o numero digitado seja maior que 31 ou menor que 1.
+        //Pede o dia e repete o pedido caso o numero digitado seja maior que 31 ou menor que 1.
         do
         {
             respt = 0;            
@@ -115,7 +115,7 @@ void criaRegistro(){
 
         } while (respt);
 
-        //Pede a mês e repete o pedido caso o numero digitado seja maior que 12 ou menor que 1.
+        //Pede o mês e repete o pedido caso o numero digitado seja maior que 12 ou menor que 1.
         do
         {
             respt = 0;
@@ -128,7 +128,7 @@ void criaRegistro(){
 
         } while(respt);
         
-        //Pede a dia e repete o pedido caso o numero digitado seja maior que 2022.
+        //Pede o dia e repete o pedido caso o numero digitado seja maior que 2022.
         do
         {
             respt = 0;

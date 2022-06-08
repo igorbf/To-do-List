@@ -13,19 +13,6 @@
     Fique a vontade para utilizar o codigo e realizar alterações.
 */
 
-/*
-    Explicando o contexto geral do codigo:
-    - Ele consulta a data e hora com o ponteiro de tempo.
-    - Salva a data de hoje em um arquivo de bloco de notas (data de registro.txt).
-    - Chama uma função que consulta a data, salva no bloco de notas e compara com
-      algum possivel registro no arquivo de bloco de notas de registro de atividades
-      (registro.txt),.
-    - Caso exista registros ela os imprime.
-    - Ao final do relatório é dado a opção de gerar um novo registro no arquivo de
-      registro de atividades (registro.txt). Ao final do registro ele repete a opção 
-      de gerar um novo registro.
-*/
-
 int checaData(){
 
     //Abre o arquivo de registros de atividades.

@@ -217,12 +217,3 @@ int main(){
 
     system("pause");
 }
-
-/*  
-    As atividades devem ser registradas em um arquivo .txt
-    O formato de anotação das atividades deve ser:
-    
-    - Começar com a data da atividade.
-    
-    - Terminar com quebra de texto. (\n)
-*/
